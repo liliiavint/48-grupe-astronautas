@@ -7,6 +7,12 @@ body * {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 40px;
+    padding-top: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
         sans-serif;
 }
@@ -17,12 +23,15 @@ body {
     align-items: center;
     gap: 40px;
     width: 800px;
-    margin-left: calc((100% - 800px) / 2);
-    margin-bottom: 40px;
+    /* margin-left: calc((100% - 800px) / 2); */
     background-color: yellow;
 }
 
 .logo {
+    height: 40px;
+    width: 100px;
+    object-fit: contain;
+    object-position: left center;
 }
 .main-nav {
 }
